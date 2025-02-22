@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Doto:wght@100..900&family=New+Amsterdam&display=swap");
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+header {
+  background: rgba(29, 29, 29, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-radius: 5rem;
+}
+
+/* Logo Styling */
+.logo {
+  padding: 0 5px;
+  color: #fffefe;
+  letter-spacing: 3px;
+}
+
+.logo::first-letter {
+  font-size: 25px;
+  font-weight: bold;
+  color: #8fdc0b;
+}
+
+/* Navigation Links */
+.goto a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 9px;
+  background: rgba(29, 29, 29, 0.4);
+  transition: font-weight 0.3s ease-in-out;
+}
+
+.goto a:hover {
+  font-weight: bold;
+}
+
+/* URL Info Section */
+.url-info {
+  border: 3px solid #fff;
+}
+
+.url-info p {
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(180, 154, 6);
+}
+
+/* About Section */
+#about {
+  padding: 40px 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: left;
+}
+
+/* Background Styling */
+body {
+  margin: 5% 10%;
+  background: url("background2.jpg") no-repeat center/cover;
+}
+
+/* Glass Effect for Containers */
+.glass,
+.data-body {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  width: 100%;
+}
