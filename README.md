@@ -1,4 +1,4 @@
-![About StudyURL](demo-img\aboutpage.png)
+![About StudyURL](demo-img/aboutpage.png)
 
 # StudyURL - The Best Coding Resources in One Place 🌍
 
@@ -8,7 +8,7 @@ Struggling to find good coding resources? Learning DSA & front-end shouldn’t f
 
 💡 **No more random Googling. No more outdated tutorials.** Just high-quality, handpicked resources to help you learn faster & smarter.
 
-![DSA Resources](.\demo-img\dsapage.png)
+![DSA Resources](demo-img/dsapage.png)
 
 ## 🚀 What StudyURL Offers
 - **Data Structures & Algorithms (DSA)**: Master problem-solving with structured learning resources.
@@ -17,7 +17,7 @@ Struggling to find good coding resources? Learning DSA & front-end shouldn’t f
 
 🔥 **Coming Soon:** A feature to submit and share study links, making StudyURL a truly community-driven learning hub!
 
-![Frontend Development](.\demo-img\frontendpage.png)
+![Frontend Development](demo-img/frontendpage.png)
 
 ## ⚡ Early Stage & Looking for Contributors!
 StudyURL is in its **initial phase**, and I’m actively working on adding more valuable resources. If you’re passionate about coding education, I’d love your help in making StudyURL better!
@@ -34,7 +34,7 @@ StudyURL is in its **initial phase**, and I’m actively working on adding more 
 If you’re interested in contributing or collaborating, reach out! Let’s create the best coding resource hub together.
 
 ### 💬 Connect & Share Your Thoughts!
-📩 **[Your Contact Info or Discord/Email]**
+**![LinkedIn](https://www.linkedin.com/in/harish-pasumarthi/)**
 
 Check it out & share your feedback! 🚀
 
