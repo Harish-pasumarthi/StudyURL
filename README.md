@@ -1,6 +1,7 @@
 ![About StudyURL](demo-img/aboutpage.png)
 
 # StudyURL - The Best Coding Resources in One Place 🌍
+visit website: https://harish-pasumarthi.github.io/StudyURL/main.html
 
 ## About the Community
 
