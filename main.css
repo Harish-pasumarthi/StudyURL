@@ -26,12 +26,6 @@ header {
   letter-spacing: 3px;
 }
 
-.logo::first-letter {
-  font-size: 25px;
-  font-weight: bold;
-  color: #8fdc0b;
-}
-
 /* Navigation Links */
 .goto a {
   color: #fff;
@@ -91,18 +85,68 @@ th {
 /* Background Styling */
 body {
   margin: 5% 10%;
-  background: url("background2.jpg") no-repeat center/cover;
+  background: url("./img/background2.jpg") no-repeat center/cover;
+}
+p {
+  color: black;
 }
 
 /* Glass Effect for Containers */
 .glass,
 .data-body {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.3);
   border-radius: 10px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 20px;
   width: 100%;
+}
+.mainlogo {
+  padding-top: 9px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .goto {
+    margin: 10px 0;
+  }
+
+  .goto a {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .container {
+    text-align: justify;
+  }
+  h2 {
+    font-size: medium;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  p {
+    font-size: 12px;
+    color: black;
+    line-height: 135%;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .url-info p {
+    font-size: 14px;
+  }
+
+  table {
+    font-size: 12px;
+  }
 }
